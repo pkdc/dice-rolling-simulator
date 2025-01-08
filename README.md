@@ -11,9 +11,13 @@ minimum of 1 and a maximum of 6. You’ll also want a function that randomly gra
 within that range and prints it.
 
 Concepts to keep in mind:
+
 ● Random
+
 ● Integer
+
 ● Print
+
 ● While Loops
 
 Deliverables
