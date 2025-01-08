@@ -1,6 +1,6 @@
 import random
 
-def main():
+def dice_rolling():
     # Create a loop that will continue to run until the user says no
     while True:
         # Ask the user if they would like to roll the dice
@@ -17,4 +17,4 @@ def main():
             print("Invalid input. Please try again.")
             continue
 
-main()
+dice_rolling()
