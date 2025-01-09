@@ -4,9 +4,9 @@ def dice_rolling():
     # Create a loop until the user enters a valid number of sides for the die to roll
     sides = -1
     while sides < 0:
-        # Ask the user to enter the number of sides to the dice
+        # Ask the user to enter the number of sides to the die
         try:
-            sides = int(input("Please enter the number of sides to the dice (1 or more) or enter 0 to exit: "))
+            sides = int(input("Please enter the number of sides to the die (1 or more) or enter 0 to exit: "))
         except ValueError:
             print("Please enter an integer greater than 1 for the number of sides to the die, or 0 to exit.")
     if sides == 0:
@@ -17,7 +17,7 @@ def dice_rolling():
         # Ask the user if they would like to roll the dice
         intro = input("Would you like to roll the dice? (y/n) ").lower()
         if intro == 'y':
-            # Generate a random number between 1 and you have entered sides
+            # Generate a random number between 1 and the number of sides the user has entered
             num = random.randint(1, sides)
             print(f"You rolled a {num}")
         elif intro == 'n':
